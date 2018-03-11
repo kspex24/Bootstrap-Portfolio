@@ -1,0 +1,76 @@
+/* Style the body of page with backgroiund image */
+body {
+    background-image: url("../imgs/light_grey_@2X.jpg");
+}
+
+.wrapper-content {
+    border: solid 1px;
+    border-color:#dddddd;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    background-color: white;
+    padding: 15px;
+}
+
+/* Change navbar-brand title color  to teal */
+.navbar-default .navbar-brand { 
+    color: white;
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/* Change H2 header to teal */
+h2 { 
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    border-bottom: solid 3px;
+    border-bottom-color: #dddddd;
+    margin-bottom: 30px;
+}
+
+.img-text {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.textbox {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    padding: 5px;
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+    z-index: 10;
+}
+
+.btn-default {
+    margin-top: 15px;
+    background: #4aaaa5; 
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Style the footer of page */
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 4px;
+    border-top: solid 6px;
+    border-color: #4aaaa5;
+}
