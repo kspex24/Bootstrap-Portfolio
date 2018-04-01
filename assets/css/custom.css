@@ -58,7 +58,7 @@ h2 {
     font-size: 20px;
 }
 
-.textbox {
+/* .textbox {
     text-align: center;
     color: white;
     font-size: 18px;
@@ -66,6 +66,17 @@ h2 {
     padding: 5px;
     width: 200px;
     bottom: 5px;
+    z-index: 10; */
+}
+
+.textbox {
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 5px;
+    width: 190px;
+    position: relative;
+    bottom: 36px;
     z-index: 10;
 }
 
